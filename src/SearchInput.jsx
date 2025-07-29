@@ -1,6 +1,7 @@
 import { memo } from "react";
 
 const SearchInput = ({ setText }) => {
+  console.log("Search")
   const handleChange = (e) => {
     setText(e.target.value);
   };
